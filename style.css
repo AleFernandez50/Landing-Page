@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing:border-box;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: black;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-color: darkslategrey;
+    padding: 8px 150px 100px 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color:green ;
+}
+ 
+a {
+    text-decoration: none;
+    color: green;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 8px;
+}
+
+.explain {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+ .world{
+    font-size: xx-large;
+    font-weight: bolder;
+ }
+
+button {
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    width: 75px;
+}
+
+.header1 {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 450px;
+    align-self: center;
+}
+
+.big {
+    width: 650px;
+    height: 250px;
+}
+
+.future {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 150px 100px 150px;
+    background-color: darkolivegreen;
+    gap: 50px;
+}
+
+.images {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+ 
+.you{
+font-weight: bolder;
+font-size: x-large;
+} 
+
+.week {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 150px 48px 150px;
+    background-color: olivedrab;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 175px;
+    height: 150px;
+}
+
+.both {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.lonely {
+    align-self: center;
+}
+
+ .life {
+    display: flex;
+    padding: 48px 0px 48px 0px;
+    background-color: mediumseagreen;
+    justify-content: center;
+ }
+
+ .crazy {
+    display: flex;
+    gap: 32px;
+    background-color: deepskyblue;
+    padding: 32px;
+    border-radius: 8px;
+ }
+
+ .copy{
+    display: flex;
+    padding: 24px 0px 24px 0px;
+    background-color: darkseagreen;
+    justify-content: center;
+    align-items: center;
+ }
